@@ -3,7 +3,11 @@ import 'package:flutter/material.dart';
 import 'UI/LogInPage.dart';
 import 'UI/RegisterPage.dart';
 
-void main() => runApp(new MaterialApp(home: facecard()));
+void main() => runApp(
+      new MaterialApp(
+        home: facecard(),
+      ),
+    );
 
 class facecard extends StatefulWidget {
   const facecard({Key? key}) : super(key: key);
